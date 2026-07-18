@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!--Header and Navigation-->  
+ <header>
+    <div class="logo">
+        <!--Swapping text for your actual logo file -->
+        <h1> JOBETEX UNIFORM SUPPLIES</h1>
+        <img src="logo.jpg.png" alt="Jobetex Uniform Supplies Logo" class="logo-img">
+    </div>
+<nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Products">Products</a></li>
+        <li><a href="#request-quote">Request Quote</a></li>
+    </ul>
+</nav>
+</header>
+<!--Hero section-->
+<section id="home" class="hero">
+    <!--HTML Image Banner Fallback-->
+    <img src="banner.jpg.png" alt="Jobetex Uniform Supplies Banner" class="hero-image">
+
+    <div class="hero-content">
+        <h1>Premium Quality Uniform Supplies</h1>
+        <p>Custom tailored School wear, corporate attire, and industrial PPE designed for durability and comfort.</p>
+        <a href="#contact" class="btn">Get a Quote</a>
+    </div>
+    </section>
+    <!--Products preview Grid-->
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+
+            <!-- School Wear Featured Card-->
+            <div class="product-card">
+                <img src="images/images-school/school-1.jpg" alt="Jobetex Premium School Uniform" class="product-image">
+                <h3>School Uniforms</h3>
+                <p>High-quality, durable school uniforms tailored to your specifications for primary, Junior high schols, and colleges.</p>
+            </div>
+
+            <!-- Corporate Attire Featured Card-->
+            <div class="product-card">
+                <img src="images/images-corporate/corporate-15.jpg" alt="Jobetex ExecutiveCorporate Attire" class="product-img">
+                <h3>Corporate Attire</h3>
+                <p>Sharp, Professional branded attire designed for comfort and style for your office team.</p>
+            </div>
+
+           <!--Industrial and  PPE Featured Card-->
+            <div class="product-card">
+                <img src="images/images-industrial//industrial-1.jpg" alt="Jobetex Heavy Duty Industrial PPE" class="product-img">
+                <h3>Industrial and PPE'</h3>
+                <p>Heavy duty overalls, saftey vests, and protective gear reliable for personal protection in industrial safety and also other industrial setups like Hospitality.</p>
+            </div>
+        </div>
+
+<!--Product Gallery Section-->
+<section class="gallery-section">
+    <h2>Our Product Catalog</h2>
+
+    <!--Category Filter Buttons-->
+    <div class="category-filters">
+        <button class="filter-btn active" data-filter="all">All Uniforms</button>
+        <button class="filter-btn" data-filter="school">School Wear</button>
+        <button class="filter-btn" data-filter="corporate">Corporate Attire</button>
+        <button class="filter-btn" data-filter="industrial">Industrial & PPE</button>
+    </div>
+
+    <!-- School Category Divider-->
+     <div class="category-divider">
+        <h2>School Uniforms Collection</h2>
+        <hr class="divider-line">
+     </div>
+    <!--The image Grid-->
+    <div class="gallery-grid">
+        <!-- SCHOOL UNIFORMS PHOTO 1-->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-1.jpg" alt="School Uniform 1" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 1</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 2 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-2.jpg" alt="School Uniform 2" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 2</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 3 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-3.jpg" alt="School Uniform 3" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 3</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 4 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-4.webp" alt="School Uniform 4" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 4</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 5 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-5.jpg" alt="School Uniform 5" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 5</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 6 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-6.webp" alt="School Uniform 6" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 6</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 7 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-7.jpg" alt="School Uniform 7" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 7</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 8 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-8.jpg" alt="School Uniform 8" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 8</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 9 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-9.jpg" alt="School Uniform 9" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 9</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 10 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-10.jpg" alt="School Uniform 10" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 10</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 11 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-11.jpg" alt="School Uniform 11" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 11</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 12 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-12.jpg" alt="School Uniform 12" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 12</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+                </div>
+            </div>
+            <!-- Example Item 13 (School) -->
+            <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-13.jpg" alt="School Uniform 13" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 13</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 14 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-14.jpg" alt="School Uniform 14" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 14</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 15 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-15.jpg" alt="School Uniform 15" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 15</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 16 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-16.jpg" alt="School Uniform 16" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 16</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 17 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-17.jpg" alt="School Uniform 17" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 17</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 18 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-18.jpg" alt="School Uniform 18" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 18</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 19 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-19.jpg" alt="School Uniform 19" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 19</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 20 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-20.jpg" alt="School Uniform 20" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 20</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 21 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-21.jpg" alt="School Uniform 21" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 21</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 22 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-22.jpg" alt="School Uniform 22" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 22</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 23 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-23.jpg" alt="School Uniform 23" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 23</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 24 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-24.jpg" alt="School Uniform 24" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 24</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 25 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-25.jpg" alt="School Uniform 25" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 25</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+            </div>
+        </div>
+        <!-- Example Item 26 (School) -->
+        <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-26.jpg" alt="School Uniform 26" loading="lazy">
+            <div class="gallery-item-info"> 
+            </div>
+            </div>
+            <!-- Example Item 27 (School) -->
+             <div class="gallery-item school" data-filter="school">
+            <img src="images/images-school/school-27.jpg" alt="School Uniform 27" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>School Uniform 1</h3>
+                <p>Durable and comfortable school uniform for primary students.</p>
+        </div>
+    </div>
+
+
+    <!-- Coporate Category Divider-->
+     <div class="category-divider">
+        <h2>Corporate Wear Collection</h2>
+        <hr class="divider-line">
+     </div>
+        <!-- CORPORATE IMAGES  -->
+        <!--Example Item 0 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-0.jpg" alt="Corporate Attire 0" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 0</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 1 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-1.jpg" alt="Corporate Attire 1" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 1</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 2 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-2.jpg" alt="Corporate Attire 2" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 2</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 3 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-3.jpg" alt="Corporate Attire 3" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 3</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 4 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-4.jpg" alt="Corporate Attire 4" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 4</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 5 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-5.jpg" alt="Corporate Attire 5" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 5</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 6 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-6.jpg" alt="Corporate Attire 6" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 6</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 7 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-7.jpg" alt="Corporate Attire 7" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 7</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 8 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-8.jpg" alt="Corporate Attire 8" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 8</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 9 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-9.jpg" alt="Corporate Attire 9" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 9</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 10 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-10.jpg" alt="Corporate Attire 10" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 10</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 11 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-11.jpg" alt="Corporate Attire 11" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 11</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 12 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-12.jpg" alt="Corporate Attire 12" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 12</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 13 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-13.jpg" alt="Corporate Attire 13" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 13</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 14 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-14.jpg" alt="Corporate Attire 14" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 14</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 15 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-15.jpg" alt="Corporate Attire 15" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 15</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+        <!-- Example Item 16 (Corporate) -->
+        <div class="gallery-item corporate" data-filter="corporate">
+            <img src="images/images-corporate/corporate-16.jpg" alt="Corporate Attire 16" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Corporate Attire 16</h3>
+                <p>Sharp and professional corporate attire for your office team.</p>
+            </div>
+        </div>
+             
+        
+
+        <!-- Industrial Category Divider-->
+     <div class="category-divider">
+        <h2 class="category-title">Industrial Wear and PPE Collection</h2>
+        <hr class="divider-line">
+     </div>
+        <!-- INDUSTRIAL AND PPE -->
+        <!-- Example Item 1 (Industrial)  -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-1.jpg" alt="Industrial PPE 1" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 1</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 2 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-2.jpg" alt="Industrial PPE 2" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 2</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 3 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-3.jpg" alt="Industrial PPE 3" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 3</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 4 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-4.jpg" alt="Industrial PPE 4" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 4</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 5 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-5.jpg" alt="Industrial PPE 5" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 5</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>   
+            </div>
+        </div>
+        <!-- Example Item 6 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-6.jpg" alt="Industrial PPE 6" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 6</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 20 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-20.jpg" alt="Industrial PPE 20" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 20</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 21 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-21.jpg" alt="Industrial PPE 21" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 21</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>   
+            </div>
+        </div>
+        <!-- Example Item 22 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-22.jpg" alt="Industrial PPE 22" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 22</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 23 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-23.jpg" alt="Industrial PPE 23" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 23</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 24 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-24.jpg" alt="Industrial PPE 24" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 24</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 25 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-25.jpg" alt="Industrial PPE 25" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 25</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>   
+            </div>
+        </div>
+        <!-- Example Item 26 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-26.jpg" alt="Industrial PPE 26" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 26</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 27 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-27.jpg" alt="Industrial PPE 27" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 27</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+        <!-- Example Item 28 (Industrial) -->
+        <div class="gallery-item industrial" data-filter="industrial">
+            <img src="images/images-industrial//industrial-28.jpg" alt="Industrial PPE 28" loading="lazy">
+            <div class="gallery-item-info">
+                <h3>Industrial PPE 28</h3>
+                <p>Heavy duty protective gear for industrial safety applications.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Request a Quote Section with forced inline styling -->
+<section id="request-quote" style="display: block !important; width: 100% !important; background-color: #f9f9f9 !important; padding: 60px 20px !important; box-sizing: border-box !important;">
+    
+    <div style="display: block !important; max-width: 750px !important; margin: 0 auto !important; background: #ffffff !important; padding: 40px !important; border-radius: 10px !important; box-shadow: 0 4px 15px rgba(0,0,0,0.05) !important; box-sizing: border-box !important;">
+        
+        <h2 style="text-align: center !important; margin-bottom: 10px !important; color: #333 !important; font-size: 2rem !important; display: block !important;">Request a Quote</h2>
+        <p style="text-align: center !important; margin-bottom: 30px !important; color: #666 !important; display: block !important;">Tell us about your uniform requirements, and our team will get back to you with a customized quotation.</p>
+        
+        <form action="#" method="POST" style="display: flex !important; flex-direction: column !important; gap: 20px !important; width: 100% !important; box-sizing: border-box !important;">
+            
+            <!-- Row 1: Names -->
+            <div style="display: flex !important; flex-direction: row !important; gap: 20px !important; width: 100% !important;">
+                <div style="display: flex !important; flex-direction: column !important; gap: 6px !important; flex: 1 !important;">
+                    <label style="font-weight: 600 !important; font-size: 0.95rem !important; color: #333 !important;">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="e.g., John Doe" style="padding: 12px !important; border: 1px solid #ccc !important; border-radius: 6px !important; font-size: 1rem !important; width: 100% !important; box-sizing: border-box !important;">
+                </div>
+                <div style="display: flex !important; flex-direction: column !important; gap: 6px !important; flex: 1 !important;">
+                    <label style="font-weight: 600 !important; font-size: 0.95rem !important; color: #333 !important;">Company / Institution Name</label>
+                    <input type="text" id="company" name="company" placeholder="e.g., Jobetex Academy" style="padding: 12px !important; border: 1px solid #ccc !important; border-radius: 6px !important; font-size: 1rem !important; width: 100% !important; box-sizing: border-box !important;">
+                </div>
+            </div>
+
+            <!-- Row 2: Contacts -->
+            <div style="display: flex !important; flex-direction: row !important; gap: 20px !important; width: 100% !important;">
+                <div style="display: flex !important; flex-direction: column !important; gap: 6px !important; flex: 1 !important;">
+                    <label style="font-weight: 600 !important; font-size: 0.95rem !important; color: #333 !important;">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="e.g., info@company.com" style="padding: 12px !important; border: 1px solid #ccc !important; border-radius: 6px !important; font-size: 1rem !important; width: 100% !important; box-sizing: border-box !important;">
+                </div>
+                <div style="display: flex !important; flex-direction: column !important; gap: 6px !important; flex: 1 !important;">
+                    <label style="font-weight: 600 !important; font-size: 0.95rem !important; color: #333 !important;">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="e.g., 0712345678" style="padding: 12px !important; border: 1px solid #ccc !important; border-radius: 6px !important; font-size: 1rem !important; width: 100% !important; box-sizing: border-box !important;">
+                </div>
+            </div>
+
+            <!-- Row 3: Specifications -->
+            <div style="display: flex !important; flex-direction: row !important; gap: 20px !important; width: 100% !important;">
+                <div style="display: flex !important; flex-direction: column !important; gap: 6px !important; flex: 1 !important;">
+                    <label style="font-weight: 600 !important; font-size: 0.95rem !important; color: #333 !important;">Uniform Category *</label>
+                    <select id="category" name="category" required style="padding: 12px !important; border: 1px solid #ccc !important; border-radius: 6px !important; font-size: 1rem !important; width: 100% !important; box-sizing: border-box !important; background: #fff !important;">
+                        <option value="" disabled selected>Select a category</option>
+                        <option value="school">School Uniforms</option>
+                        <option value="corporate">Corporate Wear</option>
+                        <option value="industrial">Industrial & PPE</option>
+                        <option value="service Wear">Service Wear</option>
+                        <option value="kitchen Uniform">Kitchen Uniform</option>
+                        <option value="health care">Health Care</option>
+                    </select>
+                </div>
+                <div style="display: flex !important; flex-direction: column !important; gap: 6px !important; flex: 1 !important;">
+                    <label style="font-weight: 600 !important; font-size: 0.95rem !important; color: #333 !important;">Estimated Quantity (Pcs) *</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required placeholder="e.g., 50" style="padding: 12px !important; border: 1px solid #ccc !important; border-radius: 6px !important; font-size: 1rem !important; width: 100% !important; box-sizing: border-box !important;">
+                </div>
+            </div>
+
+            <!-- Row 4: Textarea Details -->
+            <div style="display: flex !important; flex-direction: column !important; gap: 6px !important; width: 100% !important;">
+                <label style="font-weight: 600 !important; font-size: 0.95rem !important; color: #333 !important;">Specific Requirements / Details *</label>
+                <textarea id="details" name="details" rows="5" required placeholder="Describe design preferences, colors, sizing, branding needs..." style="padding: 12px !important; border: 1px solid #ccc !important; border-radius: 6px !important; font-size: 1rem !important; width: 100% !important; box-sizing: border-box !important; font-family: inherit !important;"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" style="background-color: #0056b3 !important; color: white !important; padding: 14px 30px !important; font-size: 1.1rem !important; font-weight: bold !important; border: none !important; border-radius: 6px !important; cursor: pointer !important; width: 100% !important; max-width: 280px !important; margin: 10px auto 0 auto !important; display: block !important;">Submit Quote Request</button>
+            
+        </form>
+    </div>
+</section>
+
+
+        <!-- Footer Section with forced inline styling -->
+<footer style="display: block !important; background-color: #111111 !important; color: #ffffff !important; padding: 50px 20px 20px 20px !important; box-sizing: border-box !important; width: 100% !important; clear: both !important; opacity: 1 !important;">
+    
+    <div style="max-width: 1200px !important; margin: 0 auto !important; display: flex !important; flex-wrap: wrap !important; gap: 40px !important; justify-content: space-between !important; box-sizing: border-box !important;">
+        
+        <!-- Column 1: Short About -->
+        <div style="flex: 1 !important; min-width: 250px !important; box-sizing: border-box !important;">
+            <h3 style="color: #ffffff !important; font-size: 1.3rem !important; margin-bottom: 20px !important; margin-top: 0 !important;">Jobetex Uniform Supplies</h3>
+            <p style="font-size: 0.95rem !important; line-height: 1.6 !important; color: #e0e0e0 !important; margin: 10px 0 !important;">Your premier partner for high-quality, durable, and professionally tailored uniforms. We supply top-tier attire for schools, corporate teams, and industrial operations across the region.</p>
+        </div>
+
+        <!-- Column 2: Quick Navigation Links -->
+        <div style="flex: 1 !important; min-width: 250px !important; box-sizing: border-box !important;">
+            <h3 style="color: #ffffff !important; font-size: 1.3rem !important; margin-bottom: 20px !important; margin-top: 0 !important;">Quick Links</h3>
+            <ul style="list-style: none !important; padding: 0 !important; margin: 0 !important;">
+                <li style="margin-bottom: 12px !important;"><a href="#" style="color: #cccccc !important; text-decoration: none !important; font-size: 0.95rem !important;">Home</a></li>
+                <li style="margin-bottom: 12px !important;"><a href="#products" style="color: #cccccc !important; text-decoration: none !important; font-size: 0.95rem !important;">Our Products</a></li>
+                <li style="margin-bottom: 12px !important;"><a href="#request-quote" style="color: #cccccc !important; text-decoration: none !important; font-size: 0.95rem !important;">Request a Quote</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Contact & Location Info -->
+        <div style="flex: 1 !important; min-width: 250px !important; box-sizing: border-box !important;">
+            <h3 style="color: #ffffff !important; font-size: 1.3rem !important; margin-bottom: 20px !important; margin-top: 0 !important;">Contact Us</h3>
+            <p style="font-size: 0.95rem !important; line-height: 1.6 !important; color: #e0e0e0 !important; margin: 10px 0 !important;"><strong style="color: #ffffff !important;">📍 Location:</strong> Nairobi, Kenya</p>
+            <p style="font-size: 0.95rem !important; line-height: 1.6 !important; color: #e0e0e0 !important; margin: 10px 0 !important;"><strong style="color: #ffffff !important;">📞 Phone:</strong> +254 721 761 556, +254 725 481 234</p>
+            <p style="font-size: 0.95rem !important; line-height: 1.6 !important; color: #e0e0e0 !important; margin: 10px 0 !important;"><strong style="color: #ffffff !important;">✉️ Email:</strong> b.wanjeri@gmail.com, joywa06@yahoo.com</p>
+            <p style="font-size: 0.95rem !important; line-height: 1.6 !important; color: #e0e0e0 !important; margin: 10px 0 !important;"><strong style="color: #ffffff !important;">⏰ Hours:</strong> Mon - Sat: 8:00 AM - 5:00 PM</p>
+        </div>
+
+    </div>
+
+    <!-- Bottom Copyright Bar -->
+    <div style="max-width: 1200px !important; margin: 40px auto 0 auto !important; padding-top: 20px !important; border-top: 1px solid #333333 !important; text-align: center !important; box-sizing: border-box !important;">
+        <p style="font-size: 0.85rem !important; color: #aaaaaa !important; margin: 0 !important;">&copy; 2026 Jobetex Uniform Supplies. All rights reserved.</p>
+    </div>
+</footer>
+            <!--Link to your external JS file-->
+            <script src="script.js"></script>
+</body>
+</html>
